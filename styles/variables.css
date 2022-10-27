@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --brand-purple: #6a1888; /* Example */
+
+  /* Typographie */
+  --font-size-base: 1rem;
+  --paragraph-line-height: 1.52;
+  --heading-line-height: 1.2;
+  --font-weight-regular: 400;
+  --font-weight-bold: 800;
+
+  /* Spacings */
+
+  /* --spacer-xxl: ;
+  --spacer-xl: ;
+  --spacer-lg: ;
+  --spacer-base: ;
+  --spacer-md: ;
+  --spacer-sm: ;
+  --spacer-xs: ;
+  --spacer-xxs: ; */
+}

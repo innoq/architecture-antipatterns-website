@@ -8,7 +8,7 @@
     "url": "https://github.com/innoq/software-architecture-antipatterns.git"
   },
   "scripts": {
-    "test": "stylelint --cache '*.css' && prettier --check ."
+    "test": "stylelint --cache 'styles/*.css' && prettier --check ."
   },
   "devDependencies": {
     "prettier": "^2.2.1",
