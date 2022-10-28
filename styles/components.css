@@ -9,3 +9,36 @@ p {
   font-weight: var(--font-weight-regular);
   line-height: var(--paragraph-line-height);
 }
+
+.landingpage-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--brand-black);
+}
+
+.landingpage-header__logo {
+  width: 10%;
+  height: auto;
+}
+
+.landingpage-header__title {
+  color: var(--brand-white);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--heading-line-height);
+}
+
+.landingpage-header__subtitle {
+  color: var(--brand-white);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--paragraph-line-height);
+}
+
+.landingpage-header__keyvisual {
+  width: 20%;
+  height: auto;
+  rotate: 90deg;
+  transform: scaleY(-1);
+}

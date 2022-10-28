@@ -1,13 +1,23 @@
 :root {
   /* Colors */
-  --brand-purple: #6a1888; /* Example */
+  --brand-black: #08172d;
+  --brand-white: #fff;
+  --brand-purple1: #5732ce;
+  --brand-pruple2: #7e62ff;
+  --brand-purple3: #9660d7;
+  --brand-blue1: #118eff;
+  --brand-blue2: #07bcfa;
+  --brand-blue3: #04dcf9;
 
-  /* Typographie */
-  --font-size-base: 1rem;
+  /* Typographie https://www.modularscale.com/?1&rem&1.5 based on modular scale */
+  --font-size-xl: 4.3rem;
+  --font-size-lg: 2.074rem;
+  --font-size-base: 1.2rem;
+  --font-size-sm: 0.667rem;
   --paragraph-line-height: 1.52;
   --heading-line-height: 1.2;
   --font-weight-regular: 400;
-  --font-weight-bold: 800;
+  --font-weight-bold: 700;
 
   /* Spacings */
 
