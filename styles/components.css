@@ -14,14 +14,15 @@ p {
 .landingpage-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: var(--brand-black);
 }
 
 .landingpage-header__logo {
-  margin-top: 5%;
-  width: 30%;
+  width: 40%;
   height: auto;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .landingpage-header__title {
@@ -45,9 +46,10 @@ p {
 }
 
 .landingpage-header__keyvisual {
-  margin-top: 10%;
   width: 20%;
   height: auto;
+  margin-top: 10%;
+  margin-left: 15%;
   rotate: 90deg;
   transform: scaleY(-1);
 }
