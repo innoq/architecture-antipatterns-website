@@ -54,6 +54,7 @@ p {
   transform: scaleY(-1);
 }
 
+/* Habe versucht, var(--breakpoint-md)  */
 @media screen and (min-width: 768px) {
   .landingpage-header__logo {
     width: 60%;
