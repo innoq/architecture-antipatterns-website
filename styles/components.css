@@ -1,3 +1,4 @@
+/* for mobile */
 h1,
 h2,
 h3 {
@@ -11,7 +12,6 @@ p {
 }
 
 .landingpage-header {
-  padding: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,30 +19,55 @@ p {
 }
 
 .landingpage-header__logo {
-  width: 60%;
+  margin-top: 5%;
+  width: 30%;
   height: auto;
 }
 
 .landingpage-header__title {
-  margin-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: 15%;
   color: var(--brand-white);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
 }
 
 .landingpage-header__subtitle {
+  padding-right: 10%;
+  padding-left: 10%;
   margin-top: 10%;
   color: var(--brand-white);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-regular);
   line-height: var(--paragraph-line-height);
 }
 
 .landingpage-header__keyvisual {
-  width: 40%;
-  height: auto;
   margin-top: 10%;
+  width: 20%;
+  height: auto;
   rotate: 90deg;
   transform: scaleY(-1);
+}
+
+@media screen and (min-width: 768px) {
+  .landingpage-header__logo {
+    width: 60%;
+    height: auto;
+  }
+
+  .landingpage-header__title {
+    font-size: var(--font-size-xl);
+  }
+
+  .landingpage-header__subtitle {
+    font-size: var(--font-size-base);
+  }
+
+  .landingpage-header__keyvisual {
+    width: 40%;
+    height: auto;
+  }
 }

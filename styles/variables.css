@@ -29,4 +29,8 @@
   --spacer-sm: ;
   --spacer-xs: ;
   --spacer-xxs: ; */
+
+  /* Breakpoints */
+
+  --breakpoint-md: 48rem;
 }
