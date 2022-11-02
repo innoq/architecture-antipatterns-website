@@ -1,4 +1,9 @@
 /* for mobile */
+
+body {
+  margin: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -45,6 +50,7 @@ p {
   line-height: var(--paragraph-line-height);
 }
 
+/* Sieht etwas verloren aus. Horizontal wiederholen? Musste beim margin-left puzzeln, damit es einigermaßen bündig aussieht. Das geht vermutlich besser?  */
 .landingpage-header__keyvisual {
   width: 20%;
   height: auto;
@@ -54,7 +60,7 @@ p {
   transform: scaleY(-1);
 }
 
-/* Habe versucht, var(--breakpoint-md)  */
+/* Habe versucht, var(--breakpoint-md) aus variables.css einzusetzen, was nicht funktioniert hat  */
 @media screen and (min-width: 768px) {
   .landingpage-header__logo {
     width: 60%;
