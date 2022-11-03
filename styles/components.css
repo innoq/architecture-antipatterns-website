@@ -17,11 +17,13 @@ p {
 }
 
 .landingpage-header {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   padding: var(--spacer-xl);
   background-color: var(--brand-black);
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
 }
 
 .landingpage-header__logo {
@@ -47,7 +49,6 @@ p {
   text-align: center;
 }
 
-/* Sieht etwas verloren aus. Horizontal wiederholen? Musste beim margin-left puzzeln, damit es einigermaßen bündig aussieht. Das geht vermutlich besser?  */
 .landingpage-header__keyvisual {
   width: var(--spacer-xxl);
   height: auto;
@@ -56,23 +57,54 @@ p {
   transform: scaleY(-1);
 }
 
-/* Habe versucht, var(--breakpoint-md) aus variables.css einzusetzen, was nicht funktioniert hat  */
 @media screen and (min-width: 48rem) {
+  .landingpage-header {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: auto;
+    justify-items: start;
+  }
+
   .landingpage-header__logo {
-    width: 60%;
+    width: var(--spacer-xxxl);
     height: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
   }
 
   .landingpage-header__title {
+    margin-top: var(--spacer-xxl);
     font-size: var(--font-size-xl);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: left;
   }
 
   .landingpage-header__subtitle {
+    max-width: 20rem;
+    margin-top: var(--spacer-xl);
     font-size: var(--font-size-base);
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 
   .landingpage-header__keyvisual {
-    width: 40%;
+    width: var(--spacer-xxxl);
     height: auto;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    place-self: center;
+    rotate: 180deg;
+    transform: scale(-1);
   }
 }

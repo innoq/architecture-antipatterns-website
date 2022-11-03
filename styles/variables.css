@@ -21,6 +21,8 @@
 
   /* Spacings also based on modular scale */
 
+  --spacer-xxxl: 10.699rem; /* ...px*/
+  --spacer-xxxl: 8.916rem; /* ...px*/
   --spacer-xxl: 7.43rem; /* 119px */
   --spacer-xl: 3.583rem; /* 57px */
   --spacer-lg: 2.986rem; /* 48px */
