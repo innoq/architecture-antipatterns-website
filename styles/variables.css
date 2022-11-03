@@ -9,28 +9,30 @@
   --brand-blue2: #07bcfa;
   --brand-blue3: #04dcf9;
 
-  /* Typographie https://www.modularscale.com/?1&rem&1.5 based on modular scale */
-  --font-size-xl: 4.3rem;
-  --font-size-lg: 2.074rem;
-  --font-size-base: 1.2rem;
-  --font-size-sm: 0.667rem;
+  /* Typographie https://www.modularscale.com/?1&rem&1.2 based on modular scale */
+  --font-size-xl: 4.3rem; /* 69px */
+  --font-size-lg: 2.074rem; /* 33px */
+  --font-size-base: 1.2rem; /* 20px */
+  --font-size-sm: 0.694rem; /* 11px */
   --paragraph-line-height: 1.52;
   --heading-line-height: 1.2;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 
-  /* Spacings */
+  /* Spacings also based on modular scale */
 
-  /* --spacer-xxl: ;
-  --spacer-xl: ;
-  --spacer-lg: ;
-  --spacer-base: ;
-  --spacer-md: ;
-  --spacer-sm: ;
-  --spacer-xs: ;
-  --spacer-xxs: ; */
+  --spacer-xxl: 7.43rem; /* 119px */
+  --spacer-xl: 3.583rem; /* 57px */
+  --spacer-lg: 2.986rem; /* 48px */
+  --spacer-base: 2.074rem; /* 33px */
+  --spacer-md: 1.44rem; /* 23px */
+  --spacer-sm: 1rem; /* 16px */
+  --spacer-xs: 0.578rem; /* 9px */
+  --spacer-xxs: 0.335rem; /* 5px */
 
-  /* Breakpoints */
+  /* Breakpoints
+  Leider werden Custom Properties in Media Queries noch nicht unterstützt.
+  Daher sind diese Variablen nur zur Dokumentation und Referenz */
 
-  --breakpoint-md: 48rem;
+  /* --breakpoint-md: 48rem; */
 }
