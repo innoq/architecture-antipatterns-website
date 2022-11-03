@@ -61,6 +61,7 @@ p {
   .landingpage-header {
     display: grid;
     align-items: start;
+    padding: var(--spacer-xxxl);
     grid-template-columns: 1fr 1.5fr;
     grid-template-rows: auto;
     justify-items: start;
@@ -97,7 +98,7 @@ p {
   }
 
   .landingpage-header__keyvisual {
-    width: var(--spacer-xxxl);
+    max-width: var(--spacer-xxxl);
     height: auto;
     grid-column-start: 2;
     grid-column-end: 2;
