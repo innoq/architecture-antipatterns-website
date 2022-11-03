@@ -19,43 +19,39 @@ p {
 .landingpage-header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  padding: var(--spacer-xl);
   background-color: var(--brand-black);
 }
 
 .landingpage-header__logo {
-  width: 40%;
+  width: var(--spacer-xxl);
   height: auto;
-  margin-top: 5%;
-  margin-left: 5%;
 }
 
 .landingpage-header__title {
-  padding-right: 10%;
-  padding-left: 10%;
-  margin-top: 15%;
+  margin-top: var(--spacer-xl);
   color: var(--brand-white);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
+  text-align: center;
 }
 
 .landingpage-header__subtitle {
-  padding-right: 10%;
-  padding-left: 10%;
-  margin-top: 10%;
+  margin-top: var(--spacer-base);
   color: var(--brand-white);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-regular);
   line-height: var(--paragraph-line-height);
+  text-align: center;
 }
 
 /* Sieht etwas verloren aus. Horizontal wiederholen? Musste beim margin-left puzzeln, damit es einigermaßen bündig aussieht. Das geht vermutlich besser?  */
 .landingpage-header__keyvisual {
-  width: 20%;
+  width: var(--spacer-xxl);
   height: auto;
-  margin-top: 10%;
-  margin-left: 13%;
+  margin-top: var(--spacer-lg);
   rotate: 90deg;
   transform: scaleY(-1);
 }
