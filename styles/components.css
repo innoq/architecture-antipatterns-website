@@ -61,7 +61,7 @@ p {
 }
 
 /* Habe versucht, var(--breakpoint-md) aus variables.css einzusetzen, was nicht funktioniert hat  */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .landingpage-header__logo {
     width: 60%;
     height: auto;
