@@ -57,6 +57,40 @@ p {
   transform: scaleY(-1);
 }
 
+/* footer mobile */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--spacer-lg) var(--spacer-sm) var(--spacer-lg) var(--spacer-sm);
+  margin-top: var(--spacer-sm);
+  color: var(--brand-white);
+  background-color: var(--brand-black);
+}
+
+.footer__subtitle {
+  margin-top: var(--spacer-sm);
+  color: var(--brand-white);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--paragraph-line-height);
+  text-align: flex-start;
+}
+
+.footer__logo {
+  width: var(--spacer-xxl);
+  height: auto;
+  margin-top: var(--spacer-base);
+}
+
+.footer__textlink {
+  margin-top: var(--spacer-sm);
+  color: var(--brand-white);
+}
+
+/* breakpoint für größere Screens */
+
 @media screen and (min-width: 48rem) {
   .landingpage-header {
     display: grid;
