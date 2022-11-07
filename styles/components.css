@@ -17,17 +17,19 @@ p {
 }
 
 .landingpage-header {
-  display: grid;
-  align-items: center;
-  padding: var(--spacer-md) var(--spacer-sm) var(--spacer-lg) var(--spacer-sm);
+  display: flex;
+  justify-content: center;
   background-color: var(--brand-black);
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  justify-items: center;
 }
 
 .landingpage-header__wrapper {
+  display: grid;
   max-width: var(--content-width-xl);
+  align-items: center;
+  padding: var(--spacer-md) var(--spacer-md) var(--spacer-lg) var(--spacer-md);
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
 }
 
 .landingpage-header__logo {
@@ -45,6 +47,7 @@ p {
 }
 
 .landingpage-header__subtitle {
+  max-width: 20rem;
   margin-top: var(--spacer-base);
   color: var(--brand-white);
   font-size: var(--font-size-sm);
@@ -65,32 +68,39 @@ p {
 
 .footer {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: var(--spacer-lg) var(--spacer-sm);
-  margin-top: var(--spacer-sm);
-  color: var(--brand-white);
+  justify-content: center;
+  margin-top: var(--spacer-lg);
   background-color: var(--brand-black);
 }
 
+.footer__wrapper {
+  display: flex;
+  max-width: var(--content-width-xl);
+  flex-direction: column;
+  align-items: start;
+  padding: var(--spacer-md) var(--spacer-lg) var(--spacer-xxl) var(--spacer-lg);
+  margin-top: var(--spacer-sm);
+  color: var(--brand-white);
+}
+
 .footer__subtitle {
+  margin-top: var(--spacer-base);
   color: var(--brand-white);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-regular);
   line-height: var(--paragraph-line-height);
-  text-align: flex-start;
 }
 
 .footer__logo {
   width: var(--spacer-xxl);
   height: auto;
-  margin-top: var(--spacer-base);
+  margin-top: var(--spacer-sm);
 }
 
 .footer__textlink {
-  margin-top: var(--spacer-sm);
-  font-size: var(--font-size-sm);
+  margin-top: var(--spacer-base);
   color: var(--brand-white);
+  font-size: var(--font-size-sm);
 }
 
 /* breakpoint für größere Screens */
@@ -98,14 +108,13 @@ p {
 /* Header */
 
 @media screen and (min-width: 48rem) {
-  .landingpage-header {
-    display: grid;
+  .landingpage-header__wrapper {
     align-items: start;
     padding: var(--spacer-xxxl);
+    grid-column-gap: var(--spacer-lg);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     justify-items: start;
-    grid-column-gap: var(--spacer-lg);
   }
 
   .landingpage-header__logo {
@@ -125,36 +134,36 @@ p {
     max-width: 20rem;
     margin-top: var(--spacer-xl);
     font-size: var(--font-size-base);
-    text-align: left;
     grid-column: 1;
+    text-align: left;
   }
 
   .landingpage-header__keyvisual {
     width: 20rem;
     height: auto;
+    align-self: center;
+    margin-top: 0;
+    grid-column: 2;
+    grid-row: 2 / 4;
     justify-self: center;
     rotate: 180deg;
     transform: scale(-1);
-    grid-column: 2;
-    grid-row: 2 / 4;
-    margin-top: 0;
-    align-self: center;
   }
 
   /* Footer */
-
   .footer {
+    margin-top: var(--spacer-xl);
+  }
+
+  .footer__wrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: var(--spacer-xl) var(--spacer-xxxl) var(--spacer-lg) var(--spacer-xxxl);
+    align-items: start;
+    padding: var(--spacer-xxxl);
     margin-top: var(--spacer-sm);
-    background-color: var(--brand-black);
-    color: var(--brand-white);
   }
 
   .footer__subtitle {
-    max-width: 60rem;
     margin-top: var(--spacer-lg);
     color: var(--brand-white);
     font-size: var(--font-size-base);
@@ -164,9 +173,9 @@ p {
   }
 
   .footer__logo {
-    width: var(--spacer-xxxl);
+    width: var(--spacer-xxxxl);
     height: auto;
-    margin-top: var(--spacer-sm);
+    margin-top: var(--spacer-base);
   }
 
   .footer__textlink {
