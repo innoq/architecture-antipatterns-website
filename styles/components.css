@@ -26,6 +26,10 @@ p {
   justify-items: center;
 }
 
+.landingpage-header__wrapper {
+  max-width: var(--content-width-xl);
+}
+
 .landingpage-header__logo {
   width: var(--spacer-xxl);
   height: auto;

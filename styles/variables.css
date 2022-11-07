@@ -32,6 +32,10 @@
   --spacer-xs: 0.578rem; /* 9px */
   --spacer-xxs: 0.335rem; /* 5px */
 
+  /* Content Width */
+
+  --content-width-xl: 90.25rem; /* 1444 px Full Width */
+
   /* Breakpoints
   Leider werden Custom Properties in Media Queries noch nicht unterstützt.
   Daher sind diese Variablen nur zur Dokumentation und Referenz */
