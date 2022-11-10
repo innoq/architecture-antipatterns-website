@@ -1,5 +1,6 @@
 :root {
   /* Colors */
+  --brand-grey: #e9e9e9;
   --brand-black: #08172d;
   --brand-white: #fff;
   --brand-purple1: #5732ce;
@@ -21,8 +22,8 @@
 
   /* Spacings also based on modular scale */
 
-  --spacer-xxxl: 10.699rem; /* ...px*/
-  --spacer-xxxl: 8.916rem; /* ...px*/
+  --spacer-xxxxl: 10.699rem; /* ...px */
+  --spacer-xxxl: 8.916rem; /* ...px */
   --spacer-xxl: 7.43rem; /* 119px */
   --spacer-xl: 3.583rem; /* 57px */
   --spacer-lg: 2.986rem; /* 48px */

@@ -1,3 +1,6 @@
 @import url('/styles/base.css');
 @import url('/styles/variables.css');
 @import url('/styles/components.css');
+@import url('/styles/components-home-header.css');
+@import url('/styles/components-home-teaser-section.css');
+@import url('/styles/components-home-footer.css');
