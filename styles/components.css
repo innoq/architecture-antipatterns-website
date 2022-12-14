@@ -1,11 +1,5 @@
-h1,
-h2,
-h3 {
-  font-weight: var(--font-weight-bold);
-  line-height: var(--heading-line-height);
-}
+/* general */
 
-p {
-  font-weight: var(--font-weight-regular);
-  line-height: var(--paragraph-line-height);
+body {
+  margin: 0;
 }
