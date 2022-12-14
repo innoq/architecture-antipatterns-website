@@ -16,7 +16,6 @@
 }
 
 .footer__subtitle {
-  margin-top: var(--spacer-lg);
   color: var(--brand-white);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-regular);
@@ -46,11 +45,9 @@
     flex-direction: column;
     align-items: flex-start;
     padding: var(--spacer-xxl) var(--spacer-lg);
-    margin-top: var(--spacer-sm);
   }
 
   .footer__subtitle {
-    margin-top: var(--spacer-lg);
     color: var(--brand-white);
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-regular);
