@@ -8,7 +8,7 @@
 /* Teaser sections: stripes / color */
 
 .stripe--grey {
-  background-color: var(--brand-grey);
+  background-color: var(--brand-grey1);
 }
 
 .stripe--white {
@@ -26,7 +26,6 @@
 /* Teaser sections titles */
 
 .landingpage-teaser-section__title {
-  margin-top: var(--spacer-base);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
@@ -41,16 +40,16 @@
   color: var(--brand-blue1);
 }
 
-.landingpage-teaser-section__title--black {
-  color: var(--brand-black);
+.landingpage-teaser-section__title--white {
+  color: var(--brand-white);
 }
 
 /* Teaser section grid */
 
 .landingpage-teaser-section__grid {
   display: grid;
-  margin-top: var(--spacer-lg);
-  grid-gap: var(--spacer-lg);
+  margin-top: var(--spacer-base);
+  grid-gap: var(--spacer-md);
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-items: center;
 }
@@ -78,17 +77,29 @@
 .landingpage-author-section__cards {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
   padding: var(--spacer-lg) var(--spacer-base) var(--spacer-lg) var(--spacer-base);
   background-color: var(--brand-white);
-  text-align: left;
 }
 
 .landingpage-card__title {
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
+}
+
+.landingpage-author-card__header {
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-items: start;
+}
+
+.landingpage-author-card__body {
+  display: flex;
+  min-width: 100%;
+  text-align: flex-start;
 }
 
 .landingpage-author-card__title {
@@ -124,7 +135,7 @@
 
 .landingpage-author-card__avatar {
   width: auto;
-  height: 5rem;
+  height: 7rem;
   border-radius: 100%;
   background-color: var(--brand-grey2);
 }
@@ -186,14 +197,13 @@
   .landingpage-teaser-section__wrapper {
     max-width: var(--content-width-xl);
     align-items: center;
-    padding: var(--spacer-xl) var(--spacer-lg) var(--spacer-xxl) var(--spacer-lg);
+    padding: var(--spacer-xxl) var(--spacer-lg) var(--spacer-xxl) var(--spacer-lg);
     justify-items: center;
   }
 
   /* Teaser section title */
 
   .landingpage-teaser-section__title {
-    margin-top: var(--spacer-xl);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     line-height: var(--heading-line-height);
@@ -248,10 +258,10 @@
     color: var(--brand-black);
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-bold);
-    line-height: var(--heading-line-height);
-    text-align: left;
     grid-column: 1;
     grid-row: 1;
+    line-height: var(--heading-line-height);
+    text-align: left;
   }
 
   .landingpage-author-card__twitterhandle {
