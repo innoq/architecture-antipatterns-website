@@ -16,6 +16,8 @@
   --font-size-lg: 2.074rem; /* 33px */
   --font-size-base: 1.2rem; /* 20px */
   --font-size-sm: 0.694rem; /* 11px */
+  --font-size-xs: 0.578rem;
+  --font-size-xxs: 0.482rem;
   --paragraph-line-height: 1.52;
   --heading-line-height: 1.2;
   --font-weight-regular: 400;
