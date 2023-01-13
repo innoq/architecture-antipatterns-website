@@ -1,0 +1,126 @@
+/* nav-bar mobile */
+
+.detail__navbar {
+  display: flex;
+  align-items: center;
+  padding: var(--spacer-md);
+  background-color: var(--brand-black);
+}
+
+.detail-nav__start {
+  width: 50%;
+  align-items: center;
+  justify-content: start;
+}
+
+.detail-nav__logo {
+  max-width: 5rem;
+}
+
+.detail-nav__end {
+  width: 50%;
+  justify-content: end;
+}
+
+/* Dropdown Menu */
+
+.detail__dropdown-menu {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+}
+
+.list-item__top:hover .dropdown__sub-level {
+  display: block;
+}
+
+.list-item__top {
+  padding: 0 var(--spacer-xs);
+  float: left;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+.list-item__links {
+  color: var(--brand-white);
+  text-decoration: none;
+}
+
+.list-item__links:hover {
+  background-color: var(--brand-purple1);
+}
+
+.dropdown__sub-level {
+  display: block;
+  display: none;
+  list-style: none;
+}
+
+.list-item__sub {
+  padding: var(--spacer-xxs) var(--spacer-xs);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+.list-item__sub-links {
+  color: var(--brand-white);
+  text-decoration: none;
+}
+
+.list-item__sub-links:hover {
+  background-color: var(--brand-purple1);
+}
+
+/* nav-bar --breakpoint-md: 48rem; */
+
+@media screen and (min-width: 48rem) {
+  .detail__navbar {
+    display: flex;
+    width: 25rem;
+    flex-direction: column;
+    padding: var(--spacer-sm) var(--spacer-xl);
+  }
+
+  .detail-nav__start {
+    padding: var(--spacer-sm);
+    width: 100%;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .detail-nav__logo {
+    max-width: 15rem;
+    align-items: start;
+  }
+
+  .detail-nav__end {
+    width: 100%;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .detail__menu {
+    margin-top: var(--spacer-lg);
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  .menu-item {
+    color: var(--brand-white);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    text-decoration: none;
+  }
+
+  .menu-item:hover {
+    color: var(--brand-blue1);
+    transition: 0.5s ease-in-out;
+  }
+
+  .menu-item:focus {
+    color: var(--brand-blue1);
+    transition: 0.5s ease-in-out;
+  }
+}

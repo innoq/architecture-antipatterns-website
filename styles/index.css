@@ -4,5 +4,6 @@
 @import url('/styles/components-home-header.css');
 @import url('/styles/components-home-teaser-section.css');
 @import url('/styles/components-home-footer.css');
-@import url('/styles/components-nav.css');
+@import url('/styles/components-details-nav.css');
 @import url('/styles/components-detail.css');
+@import url('/styles/components-details-footer.css');
