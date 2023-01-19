@@ -4,6 +4,13 @@
 @import url('/styles/components-home-header.css');
 @import url('/styles/components-home-teaser-section.css');
 @import url('/styles/components-home-footer.css');
-@import url('/styles/components-details-nav.css');
+@import url('/styles/components-detail-nav.css');
 @import url('/styles/components-detail.css');
-@import url('/styles/components-details-footer.css');
+@import url('/styles/components-detail-footer.css');
+@import url('/styles/components-detail-headings.css');
+@import url('/styles/components-detail-lists.css');
+@import url('/styles/components-detail-paragraph.css');
+@import url('/styles/components-detail-code.css');
+@import url('/styles/components-detail-tables.css');
+@import url('/styles/components-detail-quotes.css');
+@import url('/styles/components-detail-links.css');

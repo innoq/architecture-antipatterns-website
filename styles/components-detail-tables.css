@@ -1,0 +1,52 @@
+.details__table {
+  margin-top: var(--spacer-base);
+}
+
+.table {
+  font-size: var(--font-size-xs);
+  width: 100%;
+  max-width: 100%;
+  border-bottom: 3px solid var(brand-purple2);
+  border-collapse: collapse;
+  text-align: left;
+}
+
+caption {
+  margin-top: var(--spacer-xs);
+  caption-side: bottom;
+  font-size: var(--font-size-sm);
+}
+
+thead {
+  background-color: var(--brand-purple1);
+  color: var(--brand-white);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+tfoot {
+  background-color: var(--brand-purple1);
+  color: var(--brand-white);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+th {
+  padding: var(--spacer-xs) var(--spacer-xs);
+  text-align: left;
+}
+
+.tr {
+  border-bottom: 1px solid var(--brand-black);
+  background-color: var(--brand-white);
+}
+
+.tr--grey {
+  background-color: var(--brand-grey1);
+}
+
+td {
+  padding: var(--spacer-xs);
+  font-size: var(--font-size-xs);
+  vertical-align: top;
+}

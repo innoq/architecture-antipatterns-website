@@ -83,7 +83,8 @@
 }
 
 .landingpage-card__title {
-  font-size: var(--font-size-base);
+  color: var(--brand-white);
+  font-size: var(--font-size-md);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
 }
@@ -105,7 +106,7 @@
 .landingpage-author-card__title {
   margin-top: var(--spacer-md);
   color: var(--brand-black);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
 }

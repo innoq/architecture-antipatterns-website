@@ -3,3 +3,13 @@
 body {
   margin: 0;
 }
+
+.main__wrapper {
+  padding: var(--spacer-xl) var(--spacer-base) var(--spacer-xl) var(--spacer-base);
+}
+
+@media screen and (min-width: 48rem) {
+  .main__wrapper {
+    max-width: var(--content-width-xl);
+  }
+}

@@ -1,0 +1,34 @@
+.details__links {
+  margin-top: var(--spacer-base);
+}
+
+a {
+  color: var(--brand-black);
+}
+
+a:hover {
+  color: var(--brand-purple2);
+}
+
+a:focus {
+  color: var(--brand-purple2);
+}
+
+.link-teaser {
+  border-bottom: 3px solid var(--brand-purple2);
+  color: var(--brand-black);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+}
+
+.link-teaser:hover {
+  background-color: var(--brand-purple2);
+  color: var(--brand-black);
+}
+
+.link-teaser:focus {
+  background-color: var(--brand-purple2);
+  color: var(--brand-black);
+}
+
+/* button fehlt noch */

@@ -24,7 +24,7 @@
 .landingpage-header__title {
   margin-top: var(--spacer-xl);
   color: var(--brand-white);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
   text-align: center;
@@ -68,7 +68,7 @@
 
   .landingpage-header__title {
     margin-top: var(--spacer-xxl);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-xxl);
     grid-column: 1;
     text-align: left;
   }

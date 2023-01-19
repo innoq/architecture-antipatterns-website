@@ -1,0 +1,23 @@
+.details__paragraph {
+  margin-top: var(--spacer-base);
+}
+
+p {
+  font-size: var(--font-size-base);
+}
+
+.details__text--bold {
+  font-weight: bold;
+}
+
+.details__text--italic {
+  font-style: italic;
+}
+
+@media screen and (min-width: 48rem) {
+  p {
+    font-size: var(--font-size-base);
+  }
+}
+
+/* kursiv und fett über Schriftschnitte?*/
