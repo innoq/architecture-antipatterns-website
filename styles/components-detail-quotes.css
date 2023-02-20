@@ -2,12 +2,16 @@
   margin-top: var(--spacer-base);
 }
 
+/* Recherche Quotes Styling CodePe,n CSS Tricks, Google */
+
 .blockquote {
+  margin: 0;
   font-style: italic;
 }
 
 .pullquote {
   padding: var(--spacer-xs);
+  margin: 0;
   border-top: 3px solid var(--brand-purple2);
   border-bottom: 3px solid var(--brand-purple2);
   color: var(--brand-black);

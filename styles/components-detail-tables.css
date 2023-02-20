@@ -18,17 +18,25 @@ caption {
 }
 
 thead {
-  background-color: var(--brand-purple1);
+  background-color: var(--brand-blue1);
   color: var(--brand-white);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
 }
 
 tfoot {
-  background-color: var(--brand-purple1);
+  background-color: var(--brand-blue1);
   color: var(--brand-white);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
+}
+
+.table tbody tr {
+  border-bottom: 1px solid var(--brand-black);
+}
+
+.table tbody tr:nth-child(2n + 1) {
+  background-color: var(--brand-grey1);
 }
 
 th {
@@ -36,17 +44,10 @@ th {
   text-align: left;
 }
 
-.tr {
-  border-bottom: 1px solid var(--brand-black);
-  background-color: var(--brand-white);
-}
-
-.tr--grey {
-  background-color: var(--brand-grey1);
-}
-
 td {
   padding: var(--spacer-xs);
   font-size: var(--font-size-xs);
   vertical-align: top;
 }
+
+/* To Do: border bottom an allen außer am letzten */

@@ -5,6 +5,7 @@ body {
 }
 
 .main__wrapper {
+  margin: 0 auto;
   padding: var(--spacer-xl) var(--spacer-base) var(--spacer-xl) var(--spacer-base);
 }
 
