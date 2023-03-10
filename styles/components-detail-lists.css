@@ -1,3 +1,22 @@
 .details__lists {
   margin-top: var(--spacer-base);
 }
+
+li {
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+}
+
+ul li::marker {
+  color: var(--brand-purple1);
+  font-weight: var(--font-weight-bold);
+}
+
+ul li ul li::marker {
+  color: var(--brand-purple2);
+}
+
+ol li::marker {
+  color: var(--brand-blue1);
+  font-weight: var(--font-weight-bold);
+}

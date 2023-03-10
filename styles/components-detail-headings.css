@@ -6,22 +6,22 @@
 
 h1 {
   color: var(--brand-purple1);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
   text-align: left;
 }
 
 h2 {
-  color: var(--brand-purple1);
-  font-size: var(--font-size-lg-xl);
+  color: var(--brand-purple2);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
   text-align: left;
 }
 
 h3 {
-  color: var(--brand-purple1);
+  color: var(--brand-purple3);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
@@ -29,32 +29,24 @@ h3 {
 }
 
 h4 {
-  color: var(--brand-purple1);
-  font-size: var(--font-size-md);
+  color: var(--brand-blue1);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
   text-align: left;
 }
 
 h5 {
-  color: var(--brand-purple1);
-  font-size: var(--font-size-base);
+  color: var(--brand-blue2);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
   text-align: left;
 }
 
 h6 {
-  color: var(--brand-purple1);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--heading-line-height);
-  text-align: left;
-}
-
-.teaser-section-heading {
-  color: var(--brand-black);
-  font-size: var(--font-size-base);
+  color: var(--brand-blue3);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-regular);
   line-height: var(--heading-line-height);
   text-align: left;

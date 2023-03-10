@@ -4,17 +4,42 @@
 
 /* Recherche Quotes Styling CodePe,n CSS Tricks, Google */
 
-.blockquote {
-  margin: 0;
-  font-style: italic;
+long-quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.pullquote {
-  padding: var(--spacer-xs);
+blockquote {
+  padding: 0 var(--spacer-sm);
   margin: 0;
-  border-top: 3px solid var(--brand-purple2);
-  border-bottom: 3px solid var(--brand-purple2);
-  color: var(--brand-black);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+}
+
+blockquote:before,
+blockquote:after {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+blockquote:after {
+  content: close-quote;
+}
+
+blockquote:before {
+  content: open-quote;
+}
+
+cite {
+  margin-top: var(--spacer-xs);
+  font-style: normal;
   font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+span {
+  font-style: italic;
   text-align: center;
 }
