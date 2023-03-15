@@ -5,37 +5,51 @@
         <title>Architecture Antipatterns</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/styles/index.css" media="all" />
+        <script src="/scripts/nav.js" type="module"></script>
     </head>
     <body>
-        <header class="detail-header">
-                <nav class="detail__navbar" role="navigation" id="detail-navbar">
-                    <div class="detail-nav__start">
-                        <a href="index.html">
-                            <img src="lib/img/aa-logo.svg" alt="Architecture Antipatterns Logo" class="detail-nav__logo" />
-                        </a>
-                    </div>
-                    <div class="detail-nav__end">
-                        <ul id="detail-dropdown-menu" class="detail__dropdown-menu">
-                            <li class="list-item__top"> <a class="list-item__links" href="#">Antipatterns</a>
-                                <ul class="dropdown__sub-level">
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">Overengineering</a></li>
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">Emotional Misattachement</a></li>
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">Cargo Culting</a></li>
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">Domain Allergy</a></li>
-                                </ul>
-                            </li>
-                            <li class="list-item__top"> <a class="list-item__links" href="#">Case Studies</a>
-                                <ul class="dropdown__sub-level">
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">Over-Configurability in a Commerce System</a></li>
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">Super-generic framework in logistics</a></li>
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">The Insurance App Productline for 100+ count</a></li>
-                                    <li class="list-item__sub"> <a class="list-item__sub-links" href="#">Domain Allergy</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-        </header>
+        <a href="#main" class="skip-link">Zum Inhalt springen</a>
+        <nav class="main-navigation" role="navigation">
+            <a href="#" class="brand-link">
+                <img src="lib/img/aa-logo.svg" alt="Architecture Antipatterns Logo" class="brand-logo" />
+                <span class="link-alt">Architecture Antipatterns Website</span>
+            </a>
+            <menu-toggle hidden>
+                <button>Menü</button>
+            </menu-toggle>
+            <ul class="navigation-links" role="list" aria-label="Seitennavigation">
+                <li>
+                    <sub-menu>
+                        <details>
+                            <summary>
+                                Antipatterns
+                            </summary>
+                            <ul role="list" aria-label="Antipatterns Untermenü">
+                                <li> <a href="#">Overengineering</a></li>
+                                <li> <a href="#">Emotional Misattachement</a></li>
+                                <li> <a href="#">Cargo Culting</a></li>
+                                <li> <a href="#">Domain Allergy</a></li>
+                            </ul>
+                        </details>
+                    </sub-menu>
+                </li>
+                <li>
+                    <sub-menu>
+                        <details>
+                            <summary>
+                                Antipatterns
+                            </summary>
+                            <ul role="list" aria-label="Antipatterns Untermenü">
+                                <li> <a href="#">Overengineering</a></li>
+                                <li> <a href="#">Emotional Misattachement</a></li>
+                                <li> <a href="#">Cargo Culting</a></li>
+                                <li> <a href="#">Domain Allergy</a></li>
+                            </ul>
+                        </details>
+                    </sub-menu>
+                </li>
+            </ul>
+        </nav>
         <main class="main__wrapper">
                 <section id="details-headings" class="details__headings">
                     <h1>Heading H1</h1>
