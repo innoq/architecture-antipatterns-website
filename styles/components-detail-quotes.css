@@ -2,21 +2,23 @@
   margin-top: var(--spacer-base);
 }
 
-/* Recherche Quotes Styling CodePe,n CSS Tricks, Google */
+/* Wie bekomme ich die Quotes in den Marker? */
+
+.marker-blue {
+  background-color: var(--brand-blue1);
+}
 
 long-quote {
   display: flex;
   flex-direction: column;
   padding: var(--spacer-sm);
   font-style: normal;
+  quotes: '„' '“' '‚' '‘';
   text-align: center;
 }
 
-.marker-blue {
-  background-color: var(--brand-blue1);
-}
-
 blockquote {
+  display: inline-block;
   margin: 0;
   font-size: var(--font-size-base);
   line-height: 1.5;
@@ -24,9 +26,8 @@ blockquote {
 
 blockquote::before,
 blockquote::after {
-  position: inline;
+  position: relative;
   display: inline-block;
-  vertical-align: bottom;
 }
 
 blockquote::after {

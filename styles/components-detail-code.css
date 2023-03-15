@@ -1,3 +1,20 @@
 .details__code {
   margin-top: var(--spacer-base);
 }
+
+.code-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacer-base) 0;
+  background-color: var(--brand-grey1);
+  font-size: var(--font-size-sm);
+}
+
+code {
+  max-width: fit-content;
+}
+
+figcaption {
+  font-size: var(--font-size-sm);
+  text-align: center;
+}
