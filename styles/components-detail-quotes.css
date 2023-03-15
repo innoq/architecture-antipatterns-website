@@ -7,28 +7,33 @@
 long-quote {
   display: flex;
   flex-direction: column;
+  padding: var(--spacer-sm);
+  font-style: normal;
   text-align: center;
 }
 
+.marker-blue {
+  background-color: var(--brand-blue1);
+}
+
 blockquote {
-  padding: 0 var(--spacer-sm);
   margin: 0;
   font-size: var(--font-size-base);
   line-height: 1.5;
 }
 
-blockquote:before,
-blockquote:after {
-  position: relative;
+blockquote::before,
+blockquote::after {
+  position: inline;
   display: inline-block;
   vertical-align: bottom;
 }
 
-blockquote:after {
+blockquote::after {
   content: close-quote;
 }
 
-blockquote:before {
+blockquote::before {
   content: open-quote;
 }
 
@@ -39,7 +44,7 @@ cite {
   text-align: center;
 }
 
-span {
+.job-role {
   font-style: italic;
   text-align: center;
 }
