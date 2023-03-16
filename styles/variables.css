@@ -44,6 +44,10 @@
   --content-width-xl: 90.25rem; /* 1444 px Full Width */
   --content-width-md: 50rem;
 
+  /* Figcaption spacing */
+
+  --figcaption-spacing: var(--spacer-xs);
+
   /* Breakpoints
   Leider werden Custom Properties in Media Queries noch nicht unterstützt.
   Daher sind diese Variablen nur zur Dokumentation und Referenz */

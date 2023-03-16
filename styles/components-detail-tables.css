@@ -12,7 +12,7 @@
 }
 
 caption {
-  margin-top: var(--spacer-xs);
+  margin-top: var(--figcaption-spacing);
   caption-side: bottom;
   font-size: var(--font-size-sm);
 }

@@ -1,22 +1,13 @@
-.details__code {
-  margin-top: var(--spacer-base);
-}
-
-.code-wrapper {
-  display: flex;
-  flex-direction: column;
-  padding: var(--spacer-base) 0;
+pre > code {
+  display: block;
+  overflow: auto;
+  padding: var(--spacer-xs);
   background-color: var(--brand-grey1);
   font-size: var(--font-size-sm);
 }
 
-code {
-  max-width: fit-content;
-}
-
 figcaption {
-  /* einheitliche Abstände zwischen caption und Bild, Tabelle etc.? */
-  margin-top: var(--spacer-xs);
+  margin-top: var(--figcaption-spacing);
   font-size: var(--font-size-sm);
   text-align: center;
 }
