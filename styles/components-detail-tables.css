@@ -3,11 +3,11 @@
 }
 
 .table {
-  font-size: var(--font-size-xs);
   width: 100%;
   max-width: 100%;
   border-bottom: 3px solid var(brand-purple2);
   border-collapse: collapse;
+  font-size: var(--font-size-xs);
   text-align: left;
 }
 

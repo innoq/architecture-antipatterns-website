@@ -15,6 +15,8 @@ code {
 }
 
 figcaption {
+  /* einheitliche Abstände zwischen caption und Bild, Tabelle etc.? */
+  margin-top: var(--spacer-xs);
   font-size: var(--font-size-sm);
   text-align: center;
 }
