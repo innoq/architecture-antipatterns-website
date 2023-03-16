@@ -3,7 +3,15 @@
 .footer {
   display: flex;
   justify-content: center;
+}
+
+.footer--black {
   background-color: var(--brand-black);
+}
+
+.footer--purple {
+  background-color: var(--brand-black);
+  background-color: var(--brand-purple1);
 }
 
 .footer__wrapper {
