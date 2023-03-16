@@ -27,7 +27,7 @@ blockquote p::before {
 cite {
   margin-top: var(--spacer-xs);
   color: var(--brand-black);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-style: normal;
   font-weight: var(--font-weight-bold);
   text-align: center;
@@ -40,6 +40,6 @@ cite {
   }
 
   cite {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
   }
 }
