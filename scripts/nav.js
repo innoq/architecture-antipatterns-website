@@ -1,3 +1,4 @@
+// This awesome navigation is originally written by Joy Heron
 class MenuToggle extends HTMLElement {
   connectedCallback() {
     if (!this.button) {
