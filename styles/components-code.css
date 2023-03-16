@@ -6,6 +6,4 @@ pre {
   font-size: var(--font-size-sm);
   overflow-x: auto;
   tab-size: 4;
-  text-align: left;
-  white-space: pre-line;
 }
