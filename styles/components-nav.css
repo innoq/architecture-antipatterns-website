@@ -292,6 +292,7 @@
 @media (min-width: 925px) {
   .main-navigation {
     --navbar-toggler-width: var(--forced-colors-navbar-toggler-width, calc((2px * 2) + (24px * 3)));
+
     grid-template-areas: 'brand nav nav nav';
     grid-template-columns: var(--navbar-toggler-width) 1fr 1fr 1fr var(--navbar-toggler-width);
   }
@@ -328,6 +329,7 @@
 
   .main-navigation .navigation-links > :last-child {
     --submenu-position-right: 0;
+
     margin-bottom: 0;
   }
 
