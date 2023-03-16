@@ -31,6 +31,7 @@
 /* Teaser sections titles */
 
 .landingpage-teaser-section__title {
+  align-self: center;
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
