@@ -42,6 +42,7 @@
   /* Content Width */
 
   --content-width-xl: 90.25rem; /* 1444 px Full Width */
+  --content-width-lg: 60rem;
   --content-width-md: 50rem;
 
   /* Figcaption spacing */

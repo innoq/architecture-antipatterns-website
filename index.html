@@ -5,11 +5,53 @@
         <title>Architecture Antipatterns</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/styles/index.css" media="all" />
+        <script src="/scripts/nav.js" type="module"></script>
     </head>
     <body>
+        <a href="#main" class="skip-link">Zum Inhalt springen</a>
+        <nav class="main-navigation" role="navigation">
+            <a href="#" class="brand-link">
+                <img src="lib/img/aa-logo.svg" alt="Architecture Antipatterns Logo" class="brand-logo" />
+                <span class="link-alt">Architecture Antipatterns Website</span>
+            </a>
+            <menu-toggle hidden>
+                <button>Menü</button>
+            </menu-toggle>
+            <ul class="navigation-links" role="list" aria-label="Seitennavigation">
+                <li>
+                    <sub-menu>
+                        <details>
+                            <summary>
+                                Antipatterns
+                            </summary>
+                            <ul role="list" aria-label="Antipatterns Untermenü">
+                                <li> <a href="#">Overengineering</a></li>
+                                <li> <a href="#">Emotional Misattachement</a></li>
+                                <li> <a href="#">Cargo Culting</a></li>
+                                <li> <a href="#">Domain Allergy</a></li>
+                            </ul>
+                        </details>
+                    </sub-menu>
+                </li>
+                <li>
+                    <sub-menu>
+                        <details>
+                            <summary>
+                                Antipatterns
+                            </summary>
+                            <ul role="list" aria-label="Antipatterns Untermenü">
+                                <li> <a href="#">Overengineering</a></li>
+                                <li> <a href="#">Emotional Misattachement</a></li>
+                                <li> <a href="#">Cargo Culting</a></li>
+                                <li> <a href="#">Domain Allergy</a></li>
+                            </ul>
+                        </details>
+                    </sub-menu>
+                </li>
+            </ul>
+        </nav>
         <header class="landingpage-header">
             <div class="landingpage-header__wrapper">
-                <img src="lib/img/aa-logo.svg" alt="Architecture Antipatterns Logo" class="landingpage-header__logo" />
                 <h1 class="landingpage-header__title">Architecture Antipatterns</h1>
                 <p class="landingpage-header__subtitle">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                 Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
