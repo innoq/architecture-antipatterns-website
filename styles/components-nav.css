@@ -84,6 +84,7 @@
 .main-navigation .brand-link:focus,
 .skip-link:focus {
   color: var(--brand-blue1);
+  border-color: var(--brand-white);
   outline: 2px solid var(--brand-black);
 }
 
@@ -96,6 +97,7 @@
 .main-navigation .brand-link:focus-visible,
 .skip-link:focus-visible {
   color: var(--brand-blue1);
+  border-color: var(--brand-white);
   outline: 2px solid var(--brand-black);
 }
 
